@@ -1,0 +1,14 @@
+name: base2-compliance
+title: base2Services Compliance InSpec Profile
+maintainer: base2Services
+copyright: base2Services
+license: Apache-2.0
+summary: base2Services InSpec Compliance Profile
+version: 0.1.0
+
+supports:
+  - platform: aws
+
+depends:
+- name: linux-baseline
+  git: https://github.com/dev-sec/linux-baseline.git
