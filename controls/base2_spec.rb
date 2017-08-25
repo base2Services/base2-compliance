@@ -3,4 +3,8 @@
 
 title 'base2 compliance'
 
-include_controls 'linux-baseline'
+include_controls 'linux-baseline' do
+  control 'os-10' do
+    impact 0.5
+  end
+end
